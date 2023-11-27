@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iguriro shopping</title>
+</head>
+<script src="about.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link rel="stylesheet" href="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg==">
+<link rel="stylesheet" href="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDzrGwX3vgxX1NkioYNCFOVC0GpDPss10zQ=="> 
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="images/blog-2.jpg">
+<link rel="stylesheet" href="about.css">
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="title"> <h1>Up to 50% Off Markdowns. &RightArrow; 
+                <a href="#"><span>Shop now</span></a> 
+                <i class="fa fa-shopping-bag" id="mycart" onclick="showcart()"></i> <span>My cart</span></h1>
+            </div>
+            <nav>
+              <a href="index.html"><h1><span><i class="fa-solid fa-cart-shopping"></i></span>Iguriro Online</h1></a>  
+                <ul>
+                    <li><a href="men.html">Men</a></li>
+                    <li><a href="women.html">Women</a></li>
+                    <li><a href="children.html">Kids</a></li>
+                    <li><a href="trending.html">Trending</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+                <h2>
+                    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search categories" title="Type in a category">
+                    <ul id="myMenu">
+                        <li><a href="men.html">Men</a></li>
+                      <li><a href="women.html">Women</a></li>
+                      <li><a href="children.html">Kids</a></li>
+                      <li><a href="trending.html">Trending</a></li>
+                    </ul>
+                </h2>
+            </nav>
+          
+        </div>
+        <section>
+            <p>Welcome to Your Shopping Website! We are dedicated to providing you with a seamless and enjoyable online shopping experience. <br> Our mission is to offer a wide range of high-quality products at competitive prices, delivered with exceptional customer service.</p>
+    
+            <p>At Your Shopping Website, we believe in the importance of customer satisfaction. <br>Our team is committed to ensuring that your shopping journey is smooth, from browsing our website to receiving your order at your doorstep.</p>
+    
+            <p>Explore our diverse selection of products, including electronics, fashion, home goods, and more. <br> We source our products from trusted suppliers to guarantee their quality and reliability.</p>
+    
+            <p>Thank you for choosing Your Shopping Website. <br> Feel free to contact us if you have any questions or feedback. Happy shopping!</p>
+        </section>
+   <aside>         <h1>Contact Us</h1>
+
+    <p>Have questions or feedback? Reach out to us using the form below,  <br> and we'll get back to you as soon as possible.</p>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit" onclick="alert('thanks for your suggestion')">Submit</button>
+    </form>
+   </aside>
+       <footer>
+        <div class="quicklinks">
+            <h1>Quicklinks</h1>
+          <ul>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Children</a></li>
+            <li><a href="#">Trendings</a></li>
+            <li><a href="#">Abouts</a></li>
+       
+          </ul>
+          </div>
+        <div class="extralinks">
+            <h1>Extralinks</h1>
+            <ul class='extra'>
+            <li><a href="#">My Cart</a></li>
+            <li><a href="#">My Orders</a></li>
+            <li><a href="#">My Favorites</a></li>
+         
+          </ul>
+            </div>
+          <div class="location">
+            <h1>Location</h1>
+            <ul class='locate'>
+              <li>Kigali</li>
+              <li>Rubavu</li>
+              <li>Musanze</li>
+              <li>Nyanza</li>
+              <li>Bugesera</li>
+            </ul>
+            </div>
+          <div class="info">
+            <h1>Info</h1>
+            <ul style="margin-left: -30px;">
+              <li>+250 78319242</li>
+              <li>ngabodaniel@gmail.com</li>
+              <li>Rubavu rugerero St20345</li>
+            </ul>
+            </div>
+          </footer>
+          <!-- <h1 className='createdby'>--Created by Ng developer | Alrights reserved--</h1> -->
+        </div>
+    </footer>
+</div>
+
+<style>
+</style>
+
+</body>
+</html>

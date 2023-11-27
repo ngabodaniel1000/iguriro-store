@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iguriro shopping</title>
+</head>
+<script src="children.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link rel="stylesheet" href="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg==">
+<link rel="stylesheet" href="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDzrGwX3vgxX1NkioYNCFOVC0GpDPss10zQ=="> 
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="./images/blog-2.jpg">
+<link rel="stylesheet" href="children.css">
+<body>
+   <div class="container">
+    <div class="navbar">
+        <div class="title"> <h1>Up to 50% Off Markdowns. &RightArrow; 
+            <a href="#"><span>Shop now</span></a> 
+            <i class="fa fa-shopping-bag" id="mycart" onclick="showcart()"></i> <span>My cart</span></h1>
+        </div>
+        <nav>
+            <a href="index.html" class="home-link"><h1><span><i class="fa-solid fa-cart-shopping"></i></span>Iguriro Online</h1></a>
+            <ul>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="children.html">Kids</a></li>
+                <li><a href="trending.html">Trending</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <h2>
+                <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search categories" title="Type in a category">
+                <ul id="myMenu">
+                  <li><a href="men.html">Men</a></li>
+                  <li><a href="women.html">Women</a></li>
+                  <li><a href="children.html">Kids</a></li>
+                  <li><a href="trending.html">Trending</a></li>
+                </ul>
+            </h2>
+        </nav>
+        
+    </div>
+    <div class="women-product">
+        <div class="product">
+            <label>Dress </label>
+            <img src="./images/images (41).jfif" alt="Product 2" class="shoes">
+        
+        <p>$10.00</p>
+        <input type="button" value="Add To Cart" onclick="addToCart('Dress', 10.00)" class="add">
+    </div>
+
+    <div class="product">
+        <label>Kids sneakers</label>
+        <img src="images/images (63).jfif" alt="Product 2">
+        <p>$30.00</p>
+        <input type="button" value="Add To Cart" onclick="addToCart('Kids sneakers', 30.00)" class="add">
+    </div>
+
+    <div class="product">
+        <label>American Jeans</label>
+        <img src="./images/images (59).jfif" alt="Product 2">
+        <p>$15.00</p>
+        <input type="button" value="Add To Cart" onclick="addToCart('American Jeans', 15.00)" class="add">
+    </div>
+
+</div>
+       <div class="women-product">
+    <div class="product">
+        <label>Cotton</label>
+        <img src="./images/images (57).jfif" alt="Product 2">
+        <p>$15.00</p>
+        <input type="button" value="Add To Cart" onclick="addToCart('Cotton', 15.00)" class="add">
+    </div>
+
+    <div class="product">
+        <label>Yellow goddas</label>
+        <img src="./images/images (62).jfif" alt="Product 2">
+        <p>$20.00</p>
+        <input type="button" value="Add To Cart" onclick="addToCart('Yellow goddas', 20.00)" class="add">
+    </div>
+
+    <div class="product">
+        <label>Lane jeans</label>
+        <img src="./images/images (51).jfif" alt="Product 2">
+        <p>$10.00</p>
+        <input type="button" value="Add To Cart" onclick="addToCart('Lane jeans', 10.00)" class="add">
+    </div>
+
+</div>
+       <div class="women-product">
+    <div class="product">
+        <label>Dungarees</label>
+        <img src="./images/images (49).jfif" alt="Product 2">
+        <p>$21.00</p>
+        <input type="button" value="Add To Cart" onclick="addToCart('Dungarees', 21.00)" class="add">
+    </div>
+
+    <div class="product">
+        <label>Leggings</label>
+        <p>$8.00</p>
+        <img src="./images/images (54).jfif" alt="Product 2">
+        <input type="button" value="Add To Cart" onclick="addToCart('Leggings', 8.00)" class="add">
+    </div>
+
+    <div class="product">
+        <label>Evening Gown</label>
+        <img src="./images/images (55).jfif" alt="Product 2">
+        <p>$15.00</p>
+        <input type="button" value="Add To Cart" onclick="addToCart('Evening Gown', 15.00)" class="add">
+    </div>
+
+</div>
+       <div class="women-product">
+    <div class="product">
+        <label>Watch</label>
+        <img src="./images/watch-2.jpg" alt="Product 2">
+        <p>$11.00</p>
+        <input type="button" value="Add To Cart" onclick="addToCart('Watch', 11.00)" class="add">
+    </div>
+
+    <div class="product">
+        <label>Jeans</label>
+        <img src="./images/images (52).jfif" alt="Product 2">
+        <p>$14.00</p>
+        <input type="button" value="Add To Cart" onclick="addToCart('Jeans', 14.00)" class="add">
+    </div>
+
+    <div class="product">
+        <label>Fashion pro</label>
+        <img src="./images/images (56).jfif" alt="Product 2">
+        <p>$10.00</p>
+        <input type="button" value="Add To Cart" onclick="addToCart('Fashion pro', 10.00)" class="add">
+    </div>
+
+</div>
+
+       <div class="women-product">
+    <div class="product">
+        <label>Cardigans</label>
+        <img src="./images/images (55).jfif" alt="Product 2">
+        <p>$9.00</p>
+        <input type="button" value="Add To Cart" onclick="addToCart('Cardigans', 9.00)" class="add">
+    </div>
+
+    <div class="product">
+        <label>Dress</label>
+        <img src="./images/images (46).jfif" alt="Product 2">
+        <p>$14.00</p>
+        <input type="button" value="Add To Cart" onclick="addToCart('Dress', 14.00)" class="add">
+    </div>
+
+    <div class="product">
+        <label>Shorts</label>
+        <img src="./images/images (6).jfif" alt="Product 2">
+        <p>$7.00</p>
+        <input type="button" value="Add To Cart" onclick="addToCart('Shorts', 7.00)" class="add">
+    </div>
+
+</div>
+<div id="cart" class="shop">
+    <i class="fa fa-shopping-bag" id="cart" onclick="alert('this is my cart')"></i>
+    <h2>Shopping Cart</h2>
+    <ul id="cart-items"></ul>
+    <p>Total: $<span id="cart-total">0.00</span></p>
+</div> 
+       </div>         
+   
+       <footer>
+        <div class="quicklinks">
+            <h1>Quicklinks</h1>
+          <ul>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Children</a></li>
+            <li><a href="#">Trendings</a></li>
+            <li><a href="#">Abouts</a></li>
+       
+          </ul>
+          </div>
+        <div class="extralinks">
+            <h1>Extralinks</h1>
+            <ul class='extra'>
+            <li><a href="#">My Cart</a></li>
+            <li><a href="#">My Orders</a></li>
+            <li><a href="#">My Favorites</a></li>
+         
+          </ul>
+            </div>
+          <div class="location">
+            <h1>Location</h1>
+            <ul class='locate'>
+              <li>Kigali</li>
+              <li>Rubavu</li>
+              <li>Musanze</li>
+              <li>Nyanza</li>
+              <li>Bugesera</li>
+            </ul>
+            </div>
+          <div class="info">
+            <h1>Info</h1>
+            <ul style="margin-left: -30px;">
+              <li>+250 78319242</li>
+              <li>ngabodaniel@gmail.com</li>
+              <li>Rubavu rugerero St20345</li>
+            </ul>
+            </div>
+          </footer>
+          <!-- <h1 className='createdby'>--Created by Ng developer | Alrights reserved--</h1> -->
+        </div>
+    </footer>
+</div>
+
+<style>
+</style>
+
+</body>
+</html>
